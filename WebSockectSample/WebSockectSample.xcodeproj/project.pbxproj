@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		78732E07269D4AC700C5351D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78732E05269D4AC700C5351D /* Main.storyboard */; };
 		78732E09269D4AC900C5351D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78732E08269D4AC900C5351D /* Assets.xcassets */; };
 		78732E0C269D4AC900C5351D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78732E0A269D4AC900C5351D /* LaunchScreen.storyboard */; };
+		78732E15269D4EF400C5351D /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78732E14269D4EF400C5351D /* WebSocketManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		78732E08269D4AC900C5351D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78732E0B269D4AC900C5351D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78732E0D269D4AC900C5351D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78732E14269D4EF400C5351D /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
 		A99D89EDD5EFD99225842B55 /* Pods_WebSockectSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebSockectSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E1E621D0D8481DEE777E11 /* Pods-WebSockectSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebSockectSample.release.xcconfig"; path = "Target Support Files/Pods-WebSockectSample/Pods-WebSockectSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,7 +50,6 @@
 				03665C06ECBB4B16BB2EB12C /* Pods-WebSockectSample.debug.xcconfig */,
 				D7E1E621D0D8481DEE777E11 /* Pods-WebSockectSample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,6 +81,7 @@
 				78732E08269D4AC900C5351D /* Assets.xcassets */,
 				78732E0A269D4AC900C5351D /* LaunchScreen.storyboard */,
 				78732E0D269D4AC900C5351D /* Info.plist */,
+				78732E14269D4EF400C5351D /* WebSocketManager.swift */,
 			);
 			path = WebSockectSample;
 			sourceTree = "<group>";
@@ -209,6 +211,7 @@
 				78732E04269D4AC700C5351D /* ViewController.swift in Sources */,
 				78732E00269D4AC700C5351D /* AppDelegate.swift in Sources */,
 				78732E02269D4AC700C5351D /* SceneDelegate.swift in Sources */,
+				78732E15269D4EF400C5351D /* WebSocketManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
